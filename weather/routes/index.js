@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const request = require('request');
+//const request = require('request');
+const fetch = require("node-fetch");
 require('dotenv').config();
 const OWM_API_KEY = process.env.OWM_API_KEY || 'invalid_key';
 
@@ -9,11 +10,30 @@ router.get('/', function(req, res) {
   res.render('index', { weather: null, err: null });
 });
 
-router.post('/get_weather', function (req,res) {
+router.post('/get_weather', async function (req,res) {
   let city = req.body.city;
   let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${OWM_API_KEY}`;
 
-  request(url, function (err, response, body) {
+  try {
+    let data = await fetch(url);
+    let weather = await data.json();
+    console.log(weather);
+    if(weather.cod == '404' && weather.main == undefined) {
+      res.render('index', {weather: null, error: 'Error: Unknown city'});
+    }
+    else if (weather.cod == '401' && weather.main == undefined) {
+      res.render('index', {weather: null, error: 'Error: Invalid API Key. Please see http://openweathermap.org/faq#error401 for more info.'});
+    }
+    else {
+      res.render('index', {weather: weather, error: null});
+    }
+  }
+  catch (err) {
+    console.log(err);
+    res.render('index', {weather: null, error: 'Error: Unable to invoke OpenWeatherMap API'});
+  }
+
+/*   request(url, function (err, response, body) {
     if (err) {
       res.render('index', {weather: null, error: 'Error: Unable to invoke OpenWeatherMap API'});
     }
@@ -30,7 +50,8 @@ router.post('/get_weather', function (req,res) {
         res.render('index', {weather: weather, error: null});
       }
     }
-  });
+  }); */
+
 });
 
 module.exports = router;
