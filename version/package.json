@@ -1,0 +1,14 @@
+{
+  "name": "version",
+  "version": "1.0.0",
+  "description": "A simple Node.js app to demonstrate updates and webhooks",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Red Hat Training",
+  "license": "ASL",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
