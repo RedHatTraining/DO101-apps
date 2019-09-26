@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  .container
+    .content
+      h1= title
+      hr
+      br
+      if error
+        .alert.alert-danger #{error}
+      else
+        table.table.table-striped.table-bordered.table-hover
+          if contacts
+            thead
+              tr
+                th ID
+                th First Name
+                th Last Name
+                th EMail
+            tbody
+              for contact in contacts
+                tr
+                  td= contact.id
+                  td= contact.firstname
+                  td= contact.lastname
+                  td= contact.email
+          else
+              tr
+                td
+                  | No contacts found
