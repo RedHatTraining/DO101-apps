@@ -5,11 +5,11 @@
   "scripts": {
     "start": "node ./bin/www.js"
   },
-  "dependencies": {
+dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^8.1.0",
-    "express": "FIXME",
+    "express": "4.x",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pg": "^7.12.1",
