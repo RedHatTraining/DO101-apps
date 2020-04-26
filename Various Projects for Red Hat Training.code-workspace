@@ -1,8 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "DO101-apps-1",
-			"path": "."
+			"path": "..\\DO101-apps"
 		}
 	],
 	"settings": {}
