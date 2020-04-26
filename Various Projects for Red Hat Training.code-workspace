@@ -1,7 +1,8 @@
 {
 	"folders": [
 		{
-			"path": "weather"
+			"name": "DO101-apps-1",
+			"path": "."
 		}
 	],
 	"settings": {}
