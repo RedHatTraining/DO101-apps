@@ -8,6 +8,7 @@ insert into contacts(firstname, lastname, email) values
   ('Samwise','Gamgee','sam@theshire.com'),
   ('Peregrin','Took','pippin@theshire.com'),
   ('Meriadoc','Brandybuck','merry@theshire.com');
+  ('Meriadoc123','Brandybuck123','merry@theshire123.com');
 
 
 
