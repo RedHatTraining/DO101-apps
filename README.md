@@ -30,6 +30,4 @@ You must have permissions to install additional software on your system. Some ha
 * Git
 * The OpenShift CLI (oc)
 
-Do not to install these tools prior to the day or this course if you do not already have them in order to ensure a consistent experience in the course.
-Hands-on activities also require that you have a personal account on GitHub, a public, free internet service. One of the first hands-on activities instructs you to create this account if you do not already have one.
 
