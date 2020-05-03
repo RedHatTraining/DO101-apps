@@ -1,17 +1,17 @@
-# DO101-apps
+# Introduction to OpenShift Application
 Red Hat OpenShift Container Platform is a containerized application platform that allows enterprises to accelerate and streamline application development, delivery, and deployment on-premise or in the cloud. As OpenShift and Kubernetes continue to be widely adopted by enterprises, developers are increasingly required to understand how to develop, build, and deploy applications with a containerized application platform. While some developers are interested in managing the underlying OpenShift infrastructure, most developers want to focus their time and energy on developing applications, and leveraging OpenShift for its simple building, deployment, and scaling capabilities.
 Introduction to OpenShift Applications (DO101) introduces developers to Red Hat OpenShift Container Platform.
 
-Course Objectives
+## Course Objectives
 
 * Demonstrate the basic skills required to deploy, update, scale, and troubleshoot applications on OpenShift.
 * Demonstrate a good understanding of the benefits of using OpenShift, and how to contribute to applications that are deployed on OpenShift.
 
-Audience
+## Audience
 * Standard Developers
 * Student Developers
 
-Prerequisites
+## Prerequisites
 * JB183 or equivalent programming experience.
 
 For this course, Red Hat Training has provisioned an account for you on a shared Red Hat OpenShift 4 cluster. When you provision your environment in the Red Hat Online Learning interface, the system provides the cluster information. The interface gives you the OpenShift web console URL, your user name, and your password.
