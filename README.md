@@ -16,14 +16,14 @@ Introduction to OpenShift Applications (DO101) introduces developers to Red Hat
 
 For this course, Red Hat Training has provisioned an account for you on a shared Red Hat OpenShift 4 cluster. When you provision your environment in the Red Hat Online Learning interface, the system provides the cluster information. The interface gives you the OpenShift web console URL, your user name, and your password.
 
-DO101 is a Bring Your Own Device (BYOD) class, where you use your own internet-enabled system to access the shared OpenShift cluster. The following operating systems are supported:
+**DO101 is a Bring Your Own Device (BYOD) class, where you use your own internet-enabled system to access the shared OpenShift cluster. The following operating systems are supported:**
 
 * Red Hat Enterprise Linux 8 or Fedora Workstation 30 or later
 * Ubuntu 18.04 LTS or later
 * Microsoft Windows 10
 * macOS 10.13 or later
 
-You must have permissions to install additional software on your system. Some hands-on learning activities in DO101 provide instructions to install the following programs:
+**You must have permissions to install additional software on your system. Some hands-on learning activities in DO101 provide instructions to install the following programs:**
 
 * Visual Studio Code
 * Node.js
