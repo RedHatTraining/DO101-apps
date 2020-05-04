@@ -1,7 +1,9 @@
 # DO101-apps
 
 Apps for the DO101 course.
-# Deploys the apps using the OC Command 
+# Deploys the apps using the OC Command
+sudo cp oc /usr/local/bin/
+sudo chmod +x /usr/local/bin/oc 
 oc login https://api.ocp-na2.prod.nextcle.com:6443
 oc new-project randifilan
 oc new-app --name v1 https://github.com/randifilan/DO101-apps.git#update-app --context-dir version
