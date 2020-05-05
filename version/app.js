@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function(req, res) {
 
-    response = 'Version 5 Rohith Favourite Player is Messi !.' + '\n';
+    response = 'Version 6 Both Rohith and Chetan are Bad Boys :-) .' + '\n';
 
     //send the response to the client and validate
     res.send(response);
