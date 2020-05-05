@@ -4,7 +4,7 @@ app = express();
 app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
-
+ 
 app.get('/izzat', function (req, res) {
   res.send('Hello Izzat!\n');
 });
