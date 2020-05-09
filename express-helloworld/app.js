@@ -10,7 +10,7 @@ app.get('/mars', function (req, res) {
 });
 
 app.get('/vm', function (req, res) {
-  res.send('Hello Vishak Mishra!\n');
+  res.send('Hello Vishal Mishra!\n');
 });
 
 app.listen(8080, function () {
