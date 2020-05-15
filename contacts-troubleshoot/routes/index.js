@@ -10,7 +10,7 @@ function get_contacts(res)
       res.render('index', { error: 'Database connection failure! '+err.stack, contacts: null, title: 'Contact List' });
     }
     else {
-      let contacts = results.rows;
+      contacts = results.rows;
       console.log(contacts);
       res.render('index', { error: null, contacts: contacts, title: 'Contact List' });
     }
