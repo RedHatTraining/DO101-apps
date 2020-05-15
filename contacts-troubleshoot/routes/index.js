@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { pgconn } = require('../db/config')
+const pgconn = require('../db/config')
 
 function get_contacts(res)
 {
