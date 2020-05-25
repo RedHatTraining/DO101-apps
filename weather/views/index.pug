@@ -3,16 +3,16 @@ block content
   .container
       h2 
         p
-         | OpenShift Weather App
+         | HAva Durumu Uygulaması
       br
       br
       .row
         .col-md-3
           form(method="post", action="get_weather")
             .form-group
-              label.sr-only(for="city") City Name
-              input.form-control( name="city" type="text" placeholder="Enter City Name (for ex: New York)" required='required')
-            button.btn.btn-success(type="submit") Get Weather
+              label.sr-only(for="city") Şehir Adı
+              input.form-control( name="city" type="text" placeholder="Şehir Adı Girin (Ör: New York)" required='required')
+            button.btn.btn-success(type="submit") Hava Durumu Getir
       if error
         br
         .alert.alert-danger #{error}
@@ -22,9 +22,9 @@ block content
             p
             br
             .panel.panel-primary
-              .panel-heading Weather for: #{weather.name}, #{weather.sys.country}
+              .panel-heading Hava Durumu: #{weather.name}, #{weather.sys.country}
               .panel-body
-               p Current Temperature = #{weather.main.temp} !{units}, #{weather.weather[0].description}
-               p Humidity = #{weather.main.humidity} &#37;
-               p Min = #{weather.main.temp_min} !{units}
-               p Max = #{weather.main.temp_max} !{units}
+               p Şimdiki Sıcklık = #{weather.main.temp} !{units}, #{weather.weather[0].description}
+               p Nem Oranı = #{weather.main.humidity} &#37;
+               p En Düşük = #{weather.main.temp_min} !{units}
+               p En Yüksek = #{weather.main.temp_max} !{units}
