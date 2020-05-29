@@ -16,5 +16,5 @@
     "node-fetch": "^2.6.0",
     "package.json": "^2.0.1",
     "pug": "2.0.0-beta11"
-  },
+  }
 }
