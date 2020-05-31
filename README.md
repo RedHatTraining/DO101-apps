@@ -28,4 +28,4 @@ Introduction to OpenShift Applications (DO101) introduces developers to Red Hat
 * Git
 * The OpenShift CLI (oc)
 
-
+Link of step by step  procedure of project 1: https://github.com/sauravraghuvanshi/Understanding-RedHat-OpenShift-Platform-For-Deploying-Application
