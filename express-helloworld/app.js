@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function(req, res) {
-    res.send('Hello World, Hello Sun and Hi Sollar System!\n');
+    res.send('Hello World, Hello Sun and Hi Solar System!\n');
 });
 
 app.get('/mars', function(req, res) {
