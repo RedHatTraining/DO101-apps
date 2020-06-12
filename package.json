@@ -1,0 +1,6 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
