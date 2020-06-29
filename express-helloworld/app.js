@@ -10,7 +10,7 @@ app.get('/mars', function(req, res) {
 });
 
 app.get('/frank', function(req, res) {
-  res.send('Hello Mars!\n');
+  res.send('Hello frank!\n');
 });
 
 app.listen(8080, function () {
