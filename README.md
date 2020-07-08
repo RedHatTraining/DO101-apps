@@ -54,3 +54,9 @@ https://blog.openshift.com/configuring-your-application-part-1/
 <-- OpenWeather API-->
 https://openweathermap.org/
 http://api.openweathermap.org/data/2.5/weather?q=Ottawa&appid=API_KEY
+
+<-- Openshift Debug Applications -->
+https://developers.redhat.com/blog/2018/05/15/debug-your-node-js-application-on-openshift-with-chrome-devtools/
+https://servicesblog.redhat.com/2019/03/06/remote-debugging-of-java-applications-on-openshift/
+https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html-single/nodes/index#nodes-containers-events
+https://access.redhat.com/documentation/en-us/openshift_container_platform/4.2/html-single/builds/index
