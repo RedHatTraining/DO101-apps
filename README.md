@@ -53,5 +53,4 @@ https://blog.openshift.com/configuring-your-application-part-1/
 
 <-- OpenWeather API-->
 https://openweathermap.org/
-03515919f97dfce2eb002b318f86d920
-http://api.openweathermap.org/data/2.5/weather?q=Ottawa&appid=03515919f97dfce2eb002b318f86d920
+http://api.openweathermap.org/data/2.5/weather?q=Ottawa&appid=API_KEY
