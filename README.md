@@ -51,3 +51,7 @@ https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 https://docs.openshift.com/container-platform/4.2/nodes/pods/nodes-pods-secrets.html
 https://blog.openshift.com/configuring-your-application-part-1/
 
+<-- OpenWeather API-->
+https://openweathermap.org/
+03515919f97dfce2eb002b318f86d920
+http://api.openweathermap.org/data/2.5/weather?q=Ottawa&appid=03515919f97dfce2eb002b318f86d920
