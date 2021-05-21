@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is the best version ever of the app.' + '\n';
+    response = 'Ok, this is actually the best version ever of the app.' + '\n';
 
     //send the response to the client
     res.send(response);
