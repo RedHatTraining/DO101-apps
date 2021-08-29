@@ -5,6 +5,10 @@ app.get('/mars', function (req, res) {
   res.send('Hello Mars!\n');
 });
 
+app.get('/natsheh', function (req, res) {
+  res.send('Hello Mr. Natsheh, how are you doing today sir!\n');
+});
+
 app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
