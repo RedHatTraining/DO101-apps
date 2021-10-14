@@ -5,9 +5,9 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 1 of the app.' + '\n';
+    response = 'This is version 4 of the app.' + '\n';
 
-    //send the response to the client
+    //send the reponse to the client
     res.send(response);
 
 });
