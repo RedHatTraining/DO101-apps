@@ -9,6 +9,6 @@
   "author": "Red Hat Training",
   "license": "ASL",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
