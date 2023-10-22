@@ -4,6 +4,10 @@ app = express();
 var response;
 
 app.get('/', function (req, res) {
+<<<<<<< Updated upstream
+=======
+  response = 'This is version 4 of the app.' + '\n';
+>>>>>>> Stashed changes
 
     response = 'This is version 1 of the app.' + '\n';
 
