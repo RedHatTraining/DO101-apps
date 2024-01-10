@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node ./bin/www.js"
   },
-dependencies": {
+"dependencies": {
     "cookie-parser": "1.4.5",
     "debug": "4.3.2",
     "dotenv": "10.0.0",
@@ -17,5 +17,5 @@ dependencies": {
   },
   "devDependencies": {
     "nodemon": "2.0.12"
-  }
+  
 }
